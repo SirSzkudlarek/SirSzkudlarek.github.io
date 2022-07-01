@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Ragdoll</title>
+</head>
+<body>
+	<div id="wrapper" class="wrapper-wickedButton"></div>
+	<a href="../Main-Page/Index.html"><div class="main-page__button"><img class="button" src="../Graphics/main-page__button.jpg" alt="kotek2"></div></a>
+
+	<div class="main-wrapper">
+		<div class="Header-wrapper"><h1 class="h1-style__header">Ragdoll</h1></div>
+
+		<div class="Picture-main__wrapper">
+			<div class="Picture-wrapper">
+				<img onclick="myFunction()" class="Cat-Picture" src="../Graphics/ffffff.jpg" alt="Ragdoll">
+			</div>
+		</div>
+
+		<div class="Article-main__wrapper">
+			<div class="empty-left__space"></div>
+			
+			<div class="Article-wrapper">
+				<h2 class="h2-style__header">Podstawowe informacje:</h2>
+
+				<p class="Article-text"><span class="Text-Highlight">Ragdoll (ang. szmaciana lalka) –</span> rasa kota zaliczana do kotów półdługowłosych (koty o włosach średniej długości; kategoria I FIFe). Nazwa rasy wynika z opinii, według której gdy ragdolla weźmie się na ręce, kot odpręża się, rozluźnia mięśnie i staje się uległy w stopniu przewyższającym inne rasy kotów. W celu popularyzacji rasy rozpowszechniano też mit o rzekomej odporności ragdolli na ból. Z doświadczenia jednak wynika, że koty tej rasy nie są odporne na ból. Ich łagodny charakter powoduje, że kot prędzej się odsunie niż zaatakuje.</p>
+			</div>	
+
+			<div class="empty-right__space"></div>
+		</div>
+
+		<div class="main-footer">
+			<p class="p-footer">Strona wykonana przez: <strong>Damian Szkudlarek <|> Marcelina Mońko</strong></p>
+		</div>
+	</div>
+	<script>
+		function myFunction() {
+			const wrapper = document.getElementById('wrapper');
+
+			wrapper.innerHTML = '<a href="../Wicked-Site/Index.html"><div class="main-page__button2"><img class="button2" src="../Graphics/wicked-button.jpg" alt="kotek2"></div></a>'
+		}
+	</script>
+</body>
+</html>
