@@ -393,7 +393,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .portfolio-item__wrapper {
@@ -403,6 +403,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px ridge var(--clr-accent)
 }
 
 .portfolio-item__wrapper:hover .portfolio__text {
