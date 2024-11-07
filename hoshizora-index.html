@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/5d618b5cb2.js" crossorigin="anonymous"></script>
+	<title>Portfolio-Hoshizora: Damian Szkudlarek</title>
+</head>
+<body>
+	<header>
+		<a class="logo" target="_self" href="./index.html">
+			<img src="Graphics/szkudlarek.jpg">
+		</a>
+
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="index.html#services" class="nav__link">My Service</a></li>
+				<li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+				<li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="intro">
+		<h1 class="section__title section__title--intro">
+			Project: <br /><strong>Hoshizora</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">Restaurant build with React!</p>
+		<img src="Graphics/hoshizoraHeader.JPG" alt="Hoshizora title picture" class="intro__img">
+	</section>
+
+	<div class="portfolio-item-individual">
+		<p>
+			The Hoshizora restaurant website is designed
+			as a modern application built with React JS
+			and organized using the BEM methodology for CSS class management.
+		</p>
+
+		<img src="Graphics/bannerHoshizora.jpg" alt="Hoshizora banner picture">
+		<p>
+			The project focuses on a component-based approach, allowing for easy and fast content management.
+			Key information, such as the menu and dish descriptions, is stored within a structured object in
+			the constants folder, making it simple to edit and update without modifying the source code of components.
+			<br/>
+			<br/>
+			To ensure smooth and appealing animations,
+			the website uses the GSAP library with Observer and ScrollTrigger modules.
+			These tools enable advanced control over visual effects during scrolling,
+			enhancing interactivity and the visual appeal of the site.
+			<br/>
+			<br/>
+			Thanks to modern technology and a solid component structure, the Hoshizora website is flexible,
+			ready for further development, and can easily integrate additional functionalities in the future.
+		</p>
+
+		<div class="item-individual-btn">
+			<a href="https://sirszkudlarek.github.io/hoshizora_restaurant/" target="_blank" class="btn">Go to website.</a>
+		</div>
+	</div>
+
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<a href="mailto:damian.szkudlarek1237@gmail.com" class="footer__link">damian.szkudlarek1237@gmail.com</a>
+		<ul class="social-list">
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://codepen.io/Szkudlarek">
+					<i class="fab fa-codepen"></i>
+				</a>
+			</li>
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://www.linkedin.com/in/damian-szkudlarek-649a96239/">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+			</li>
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://www.facebook.com/Szkudi8">
+					<i class="fa-brands fa-facebook-square"></i>
+				</a>
+			</li>
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://github.com/SirSzkudlarek">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+		</ul>
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
